@@ -194,11 +194,11 @@ Evaluates hospital **patient flow, capacity utilization, and service demand**.
 
 ---
 
-## Dashboard Demo Video
+## Dashboard Walkthrough
 
 Watch the full walkthrough of the interactive dashboards including navigation, slicers, and insights.
 
-[Watch the Video](https://github.com/the-abhradeep-banerjee/Healthcare-Management-Analytics-Dashboard/blob/main/Demo%20Video/Hospital_Management_Analytics_Dashboard_Demo.mp4)
+[Watch the Dashboard Walkthrough](https://github.com/the-abhradeep-banerjee/Healthcare-Management-Analytics-Dashboard/blob/main/Demo%20Video/Hospital_Management_Analytics_Dashboard_Demo.mp4)
 
 ---
 
