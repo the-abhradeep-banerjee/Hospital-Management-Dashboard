@@ -22,6 +22,12 @@ The dashboard provides a **centralized view of hospital performance** to help ad
 
 ---
 
+## Dashboard Preview
+
+Below is a quick preview of the interactive Power BI dashboards.
+
+![Dashboard Preview](https://github.com/the-abhradeep-banerjee/Healthcare-Management-Analytics-Dashboard/blob/main/Healthcare%20Dashboard.gif)
+
 ## Business Problem
 
 Hospital administrators often struggle with fragmented healthcare data across multiple systems, making it difficult to answer critical management questions such as:
@@ -72,16 +78,19 @@ The **Encounters table serves as the primary fact table** linking patient activi
 
 ## Data Model
 
-The project follows a star schema structure.
+The report follows a **star schema data model** designed to efficiently analyze hospital performance across financial and operational dimensions.
 
-Fact Table:
+### Data Model Diagram:
+
+![Data Model](https://github.com/the-abhradeep-banerjee/Healthcare-Management-Analytics-Dashboard/blob/main/Screenshots/Data_Model_Diagram.png)
+
+### Fact Table:
 - Encounters
 
-Dimension Tables:
+### Dimension Tables:
 - Patients
 - Payers
 - Procedures
-- Organizations
 
 ---
 
@@ -124,7 +133,7 @@ Provides an **executive-level summary of hospital performance**.
 - Patient Age Distribution
 - Revenue Margin Breakdown
 
-### Dashboard Preview
+### Preview
 
 ![Dashboard](https://github.com/the-abhradeep-banerjee/Hospital-Management-Dashboard/blob/main/Screenshots/01_Healthcare_Performance_Executive_Overview.png)
 
@@ -152,7 +161,7 @@ Analyzes hospital **financial sustainability and profitability**.
 - Service Line Profitability Scorecard
 - Net Revenue Margin Comparison
 
-### Dashboard Preview
+### Preview
 
 ![Dashboard](https://github.com/the-abhradeep-banerjee/Hospital-Management-Dashboard/blob/main/Screenshots/04_Hospital_Financial_Performance_Profitability_Dashboard.png)
 
@@ -179,9 +188,17 @@ Evaluates hospital **patient flow, capacity utilization, and service demand**.
 - Admission Conversion Funnel
 - Bed Utilization Gauge
 
-### Dashboard Preview
+### Preview
 
 ![Dashboard](https://github.com/the-abhradeep-banerjee/Hospital-Management-Dashboard/blob/main/Screenshots/05_Healthcare_Operational_Efficiency_Patient_Flow_Dashboard.png)
+
+---
+
+## Dashboard Demo Video
+
+Watch the full walkthrough of the interactive dashboards including navigation, slicers, and insights.
+
+[Watch the Video](https://github.com/the-abhradeep-banerjee/Healthcare-Management-Analytics-Dashboard/blob/main/Demo%20Video/Hospital_Management_Analytics_Dashboard_Demo.mp4)
 
 ---
 
@@ -227,7 +244,8 @@ Healthcare-Management-Analytics-Dashboard
 │   ├── 03_Service_Line_Performance_Analysis_Ambulatory.png
 │   ├── 04_Hospital_Financial_Performance_Profitability_Dashboard.png
 │   ├── 05_Healthcare_Operational_Efficiency_Patient_Flow_Dashboard.png
-│   └── 06_Operational_Efficiency_Yearly_Patient_Flow_Analysis.png
+│   ├── 06_Operational_Efficiency_Yearly_Patient_Flow_Analysis.png
+│   └── Data_Model_Diagram.png
 │
 ├── Demo Video
 │   └── Hospital_Management_Analytics_Dashboard_Demo.mp4
