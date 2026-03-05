@@ -1,4 +1,4 @@
-# 🏥 Healthare Management Analytics Dashboard
+## Healthare Management Analytics Dashboard
 
 ![Power BI Dashboard](https://img.shields.io/badge/Power%20BI-Dashboard-F2C811?style=for-the-badge&logo=powerbi&logoColor=black)
 ![Data Analytics](https://img.shields.io/badge/Data-Analytics-blue?style=for-the-badge)
@@ -7,13 +7,13 @@
 
 ---
 
-# 📊 Project Headline
+## Project Headline
 
 An **interactive Power BI analytics solution** designed to analyze hospital financial performance, operational efficiency, and patient service utilization to support **data-driven healthcare management decisions**.
 
 ---
 
-# 🧾 Project Overview
+## Project Overview
 
 Healthcare organizations operate with complex financial structures, operational workloads, and patient demand patterns.  
 This project builds a **comprehensive hospital analytics dashboard** that enables hospital management to monitor performance across **financial, operational, and patient demographic dimensions**.
@@ -22,7 +22,7 @@ The dashboard provides a **centralized view of hospital performance** to help ad
 
 ---
 
-# 🎯 Business Problem
+## Business Problem
 
 Hospital administrators often struggle with fragmented healthcare data across multiple systems, making it difficult to answer critical management questions such as:
 
@@ -36,7 +36,7 @@ Without centralized analytics, decision-making becomes reactive rather than stra
 
 ---
 
-# 🎯 Goal of the Dashboard
+## Goal of the Dashboard
 
 The goal of this project is to build a **data-driven hospital performance monitoring system** that enables stakeholders to:
 
@@ -48,7 +48,7 @@ The goal of this project is to build a **data-driven hospital performance monito
 
 ---
 
-# 📂 Data Source
+## Data Source
 
 Dataset obtained from:
 
@@ -70,7 +70,22 @@ The **Encounters table serves as the primary fact table** linking patient activi
 
 ---
 
-# 🛠 Tech Stack
+## Data Model
+
+The project follows a star schema structure.
+
+Fact Table:
+- Encounters
+
+Dimension Tables:
+- Patients
+- Payers
+- Procedures
+- Organizations
+
+---
+
+## Tech Stack
 
 - **Power BI Desktop**
 - **Power Query**
@@ -80,13 +95,13 @@ The **Encounters table serves as the primary fact table** linking patient activi
 
 ---
 
-# 📊 Dashboard Features
+## Dashboard Features
 
 This project consists of **three analytical dashboards**.
 
 ---
 
-# 1️⃣ Hospital Management Overview
+## 1️. Hospital Management Overview
 
 ### Purpose
 Provides an **executive-level summary of hospital performance**.
@@ -115,7 +130,7 @@ Provides an **executive-level summary of hospital performance**.
 
 ---
 
-# 2️⃣ Financial Performance Dashboard
+## 2️. Financial Performance Dashboard
 
 ### Purpose
 Analyzes hospital **financial sustainability and profitability**.
@@ -143,7 +158,7 @@ Analyzes hospital **financial sustainability and profitability**.
 
 ---
 
-# 3️⃣ Operational Efficiency Dashboard
+## 3️. Operational Efficiency Dashboard
 
 ### Purpose
 Evaluates hospital **patient flow, capacity utilization, and service demand**.
@@ -170,7 +185,7 @@ Evaluates hospital **patient flow, capacity utilization, and service demand**.
 
 ---
 
-# 📈 Business Impact & Insights
+## Business Impact & Insights
 
 Key insights derived from the analysis include:
 
@@ -184,7 +199,7 @@ These insights help hospital leadership improve **financial planning, service pr
 
 ---
 
-# 🔍 Analytical Techniques Used
+## Analytical Techniques Used
 
 This project demonstrates several **advanced business intelligence techniques**:
 
@@ -199,3 +214,17 @@ This project demonstrates several **advanced business intelligence techniques**:
 ---
 
 # 📁 Repository Structure
+
+Hospital-Management-Analytics
+│
+├── Hospital Management.pbix
+├── README.md
+└── screenshots
+├── 01_hospital_management_overview_dashboard.png
+├── 02_hospital_performance_yearly_analysis_dashboard.png
+├── 03_service_line_performance_analysis_ambulatory.png
+├── 04_hospital_financial_performance_profitability_dashboard.png
+├── 05_hospital_operational_efficiency_patient_flow_dashboard.png
+└── 06_operational_efficiency_yearly_patient_flow_analysis.png
+└── Demo Video
+├── Hospital_Management_Analytics_Dashboard_Demo.mp4
